@@ -1,0 +1,213 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /*background-color:#ffcccc;*/
+    background-color:#ffc266;
+}
+
+body div:first-child {
+    text-align:center;
+    margin:15px;
+}
+
+.navbar ul li {
+    display:inline-block;
+    text-align:center;
+    height:38px;
+    width:245px;
+    line-height: 38px;
+    background-color:#cc9966;
+    color:white;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+.navbar ul {
+    background-color:#cc9966;
+    text-align:center;
+    border-top: solid #ac7339 5px;
+    border-bottom:solid #ac7339 5px;
+}
+
+.navbar ul li:hover {
+    background:#ac7339;
+    color:white;
+}
+
+/*insert header hero image here*/
+
+h1 {
+    color:white;
+    float:right;
+    margin:15px;
+    font-size:72px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.headercontact {
+    position: relative;
+    height: 400px;
+}
+
+.headercontact #over {
+    /*background-image: url("images/contact-map3.png");*/
+    /*background-size: cover;*/
+    position:absolute; 
+    top:0px; 
+    right:0px; 
+    z-index:20; 
+    }
+
+.headercontact iframe {
+    height:100%;
+    width:100%;
+    background-size:cover;
+    z-index: 5;
+}
+
+.hvr-grow {
+    /*display: inline-block;*/
+    /*vertical-align: middle;*/
+    /*transform: translateZ(0);*/
+    /*box-shadow: 0 0 1px rgba(0, 0, 0, 0);*/
+    /*backface-visibility: hidden;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+    transition-duration: 0.8s;
+    /*transition-property: transform;*/
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.08);
+}
+
+.headermenu {
+    height:400px;
+    background-image: url("images/menu-doughnuts.jpg");
+    background-size: cover;
+}
+
+.headernews {
+    height:400px;
+    background-image: url("images/menu-doughnuts.jpg");
+    background-size: cover;
+}
+
+.headerindex {
+    height:400px;
+    background-image: url("images/menu-doughnuts.jpg");
+    background-size: cover;
+}
+
+/*insert main content here*/
+
+.main p {
+    color: white;
+    text-align: center;
+    margin:15px;
+    padding:0px 70px;
+}
+
+.main h3 {
+    text-align:center;
+    color:white;
+    background-color:#cc3300;
+    padding:20px;
+    border-top: solid #ac7339 5px;
+    border-bottom:solid #ac7339 5px;
+}
+
+.main h4 {
+    margin:10px 0px 10px 30px;
+    font-weight: bolder;
+    color: #cc3300;
+    text-decorataion:underline;
+}
+
+.main h5 {
+    margin:10px 40px;
+    font-weight: lighter;
+    color:white;
+}
+
+.main form {
+    text-align:center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color:white;
+}
+
+/*insert center button selection here*/
+
+.main input {
+    width:500px;
+    padding: 10px;
+}
+
+.main .biggerfield {
+    padding:150px;
+}
+
+.main .button {
+    border:solid 2px #ac7339;
+    margin-bottom:15px;
+    background-color:#cc9966;
+    color:white;
+    font-size:14px;
+    padding:3px 20px;
+    border-radius:8px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.main form input:nth-child(3) {
+    width:300px;
+}
+
+.main .button:hover {
+    background:#ac7339;
+    color:white;
+}
+
+.main div {
+    text-align:center;
+    display:inline-block;
+    margin:50px;
+}
+
+.main img {
+    width:500px;
+    border:#cc3300 solid 5px;
+}
+
+.footer div {
+    display:inline-block;
+    /*text-align:center;*/
+    color:white;
+}
+
+.footer {
+    background-color:#cc9966;
+    border-top: solid #ac7339 5px;
+    border-bottom:solid #ac7339 5px;
+}
+
+.footer div:first-child {
+    text-align:left;
+    margin:25px;
+}
+
+.footer div:nth-child(2) {
+    text-align:right;
+    float:right;
+    margin:25px;
+}
+
+.footer img {
+    margin:1.75px;
+}
